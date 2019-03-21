@@ -2,6 +2,7 @@
 layout: article
 permalink: /contributors/
 title: contributors
+published: false
 ---
 
 *Language and Identity in the African Experience*, Spring 2017, Swarthmore College:
