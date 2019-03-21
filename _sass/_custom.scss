@@ -1,0 +1,170 @@
+/* ==========================================================================
+   Custom CSS for Language and Identity
+   Nabil Kashyap
+   Roberto Vargas
+   ========================================================================== */
+
+.page-lead {
+  background-image: -webkit-linear-gradient(top, rgba(16, 50, 50, .8), rgba(16, 50, 50, .8)), url("../images/banner.jpg");
+
+  h1 {
+    display: inline-block;
+    text-align: right;
+    color: lighten($green,10);
+  }
+
+}
+
+footer p {
+  text-align: center;
+}
+
+span.rtl {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+#site-footer p.copyright{
+    font-size: 1.1em;
+}
+
+.page-title {
+    color: $green;
+}
+
+.footnotes ol {
+    list-style: $green;
+}
+
+a.footnote {
+
+    color: $green;
+    font-size: 1.3em;
+}
+
+.title .post-teaser a:link {
+  text-decoration: none;
+}
+
+.home p, 
+.home hr{
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.inner-wrap {  
+  @include media($medium){
+    margin-left: 8.5%;
+  }
+}
+
+.about p, 
+.about hr {
+  font-size: $doc-font-size;
+}
+
+.contributor {
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  
+  -webkit-justify-content: left;
+  -moz-justify-content: left;
+  -ms-justify-content: left;
+  justify-content: left;
+
+  .author-image {
+
+    position: inherit;
+
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: $border-radius;
+    }
+  }
+
+  .author-content {
+    padding: 0 2em 0 2em;
+    max-width: $max-width - em(300);
+
+    p.author-bio {
+      
+      margin-bottom: 1em;
+
+      span { 
+        font-family: $heading-font;
+        font-weight: 800;
+      }
+    }
+  }
+
+  .author-name {
+
+    @include media($medium){
+      margin: 0;      
+    }
+    font-family: $heading-font;
+  }
+
+  hr {
+    margin: 0 0 2em 0;
+  }
+
+}
+
+/*
+modified css for post-grid images and text
+*/
+
+div.tiles {
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  
+  padding: 1em 0 2em 0;
+}
+
+article.tile {
+  width: 250px;
+  margin: unset;
+}
+
+article.tile a.post-teaser {
+
+  background-color: rgba(16, 50, 50, .8);
+  text-decoration: none;
+
+  & h2 {
+
+    margin: unset;
+    display: block;
+    padding: 0 .5em;
+    color: rgba(255,255,255,.75);
+
+    &:hover {
+      color: lighten($green,20);
+    }
+  }
+}

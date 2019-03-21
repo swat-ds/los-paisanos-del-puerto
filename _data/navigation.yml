@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: about
+  url: /about/
+  excerpt:
+  image:
+- title: 1
+  url: /episode-1-myth-of-racial-mixture-in-latinx-communities/
+- title: 2
+  url: /episode-2-in-between-black-and-latinx/
+- title: 3
+  url: /episode-3-moving-forward-beyond-the-bounds-of-race/
+- title: language bank
+  url: /language-bank/
+- title: contributors
+  url: /contributors/

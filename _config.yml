@@ -1,0 +1,105 @@
+# Site wide configuration
+
+title: Los Paisanos del Puerto
+description: "Los Paisanos del Puerto"
+logo: # 120x120 px default image used for Twitter summary card
+teaser: # 400x250 px default teaser image used in image archive grid
+locale: en
+url: http://127.0.0.1:4000/
+# url: 
+feed:
+  path: atom.xml
+audio: '../audio/'
+
+# Jekyll configuration
+
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+
+
+# Site owner
+owner:
+  name: Swarthmore College Library Digital Scholarship
+  email: digitalscholarship@swarthmore.edu
+  twitter: jamieisjames
+  google:
+    ad-client:
+    ad-slot:
+  bio:
+  avatar: logo-mccabe-web.png # 160x160 px image for author byline
+  disqus-shortname:
+
+# prose.io front matter settings
+
+prose:
+  rooturl: '_posts/articles'
+  media: 'images'
+  metadata:
+    _posts/articles:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "Enter your title"
+          value: ""
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "article"
+      - name: "modified"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "image_teaser"
+        field:
+          element: "hidden"
+          value: ""
+      - name: "soundcloud_id"
+        field:
+          element: "text"
+          label: "Soundcloud ID"
+          placeholder: "example: 295723986"
+          help: "If including a Soundcloud hosted soundfile, enter the ID included in the URL"
+          value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish?"
+          help: "Check the box when ready to publish"
+          value: false
+
+include:
+  - .htaccess
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
+  - vendor

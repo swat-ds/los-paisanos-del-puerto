@@ -1,0 +1,33 @@
+<!-- fallback background image -->
+
+    {% if post.image_teaser %}
+        {% assign background = post.image_teaser %}
+    {% else %}
+        {% assign background = site.teaser %}
+    {% endif %}
+
+
+<article class="tile" itemscope itemtype="http://schema.org/Article">
+
+    {% if post.soundcloud_id %}
+
+    <iframe width="250px" height="250px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ post.soundcloud_id }}&amp;auto_play=false&amp;hide_related=false&amp;scrolling=false&amp;show_artwork=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=true"></iframe>
+
+    {% endif %}
+
+    {% if post.title %}
+
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" class="post-teaser">
+
+    <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
+
+    </a>
+
+    {% endif %}
+
+<!-- hide unneeded metadata -->
+
+    <!-- {% if post.date %}<p class="entry-date date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>{% endif %} -->
+    <!-- <p class="post-excerpt" itemprop="description">{{ post.excerpt | strip_html | truncate: 160 }}</p> -->
+
+</article><!-- /.tile -->
