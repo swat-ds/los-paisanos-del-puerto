@@ -2,8 +2,8 @@
 image_teaser: images/record-store-thumb.jpg
 modified: '2017-05-03 13:22 -0400'
 layout: article
-published: true
-soundcloud_id: 322214294
+published: false
+soundcloud_id: 594725379
 title: 'Episode 1: Myth of Racial Mixture in Latinx Communities'
 ---
 > “It is important to recognize the existence of Blackness in Latin America. Latin American narratives have been falsely constructed upon ideals of heritage made of only Spaniards and Indians.” - Evelynne Laurent-Perrault

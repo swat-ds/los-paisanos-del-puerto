@@ -3,7 +3,7 @@ image_teaser: images/corazon-thumb.jpg
 modified: '2017-05-03 13:23 -0400'
 layout: article
 soundcloud_id: '322222011'
-published: true
+published: false
 title: 'Episode 3: Beyond the Bounds of Race'
 ---
 ![Dinner with our guest from Taller Puertorriqueño, Carlos Pardo]({{site.url}}/images/restaurant.jpg)

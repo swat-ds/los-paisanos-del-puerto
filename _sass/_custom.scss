@@ -6,13 +6,13 @@
 
 .page-lead {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff1a00+0,ff1a00+100&1+0,0.54+60 */
-background: -moz-linear-gradient(-45deg, rgba(255,26,0,1) 0%, rgba(255,26,0,0.54) 60%, rgba(255,26,0,0.54) 100%), url("../images/banner.jpg"); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, rgba(255,26,0,1) 0%,rgba(255,26,0,0.54) 60%,rgba(255,26,0,0.54) 100%), url("../images/banner.jpg"); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, rgba(255,26,0,1) 0%,rgba(255,26,0,0.54) 60%,rgba(255,26,0,0.54) 100%), url("../images/banner.jpg"); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(-45deg, rgba(255,26,0,.7) 0%, rgba(255,26,0,0.54) 60%, rgba(255,26,0,0.54) 100%), url("../images/banner.jpg"); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(255,26,0,.7) 0%,rgba(255,26,0,0.54) 60%,rgba(255,26,0,0.54) 100%), url("../images/banner.jpg"); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(255,26,0,.7) 0%,rgba(255,26,0,0.54) 60%,rgba(255,26,0,0.54) 100%), url("../images/banner.jpg"); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
   h1 {
     display: inline-block;
-    text-align: right;
+    text-align: center;
     color: lighten($white,10);
   }
 
@@ -32,7 +32,7 @@ span.rtl {
 }
 
 .page-title {
-    color: $green;
+    color: $red;
 }
 
 .footnotes ol {
@@ -156,7 +156,7 @@ article.tile {
 
 article.tile a.post-teaser {
 
-  background-color: rgba(16, 50, 50, .8);
+  background-color: rgba(255,0,0,0.8);
   text-decoration: none;
 
   & h2 {
@@ -164,10 +164,10 @@ article.tile a.post-teaser {
     margin: unset;
     display: block;
     padding: 0 .5em;
-    color: rgba(255,255,255,.75);
+    color: $white;
 
-    &:hover {
-      color: lighten($green,20);
-    }
+    /*&:hover {
+      color: lighten($white,20);
+    }*/
   }
 }
