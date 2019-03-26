@@ -6,9 +6,9 @@
 
 .page-lead {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff1a00+0,ff1a00+100&1+0,0.54+60 */
-background: -moz-linear-gradient(-45deg, rgba(255,26,0,.7) 0%, rgba(255,26,0,0.54) 60%, rgba(255,26,0,0.54) 100%), url("../images/banner.jpg"); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, rgba(255,26,0,.7) 0%,rgba(255,26,0,0.54) 60%,rgba(255,26,0,0.54) 100%), url("../images/banner.jpg"); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, rgba(255,26,0,.7) 0%,rgba(255,26,0,0.54) 60%,rgba(255,26,0,0.54) 100%), url("../images/banner.jpg"); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(-45deg, rgba(194, 0, 0, 0.7) 0%, rgba(194, 0, 0,0.54) 60%, rgba(194, 0, 0,0.54) 100%), url("../images/banner.jpg"); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(194, 0, 0, 0.7) 0%,rgba(194, 0, 0,0.54) 60%,rgba(194, 0, 0,0.54) 100%), url("../images/banner.jpg"); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(194, 0, 0,.7) 0%,rgba(194, 0, 0, 0.54) 60%,rgba(194, 0, 0,0.54) 100%), url("../images/banner.jpg"); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
   h1 {
     display: inline-block;
@@ -60,6 +60,8 @@ a.footnote {
     margin-left: 8.5%;
   }
 }
+
+
 
 .about p, 
 .about hr {
@@ -156,7 +158,8 @@ article.tile {
 
 article.tile a.post-teaser {
 
-  background-color: rgba(255,0,0,0.8);
+  background-color: RGBA(251, 174, 92, 1);
+  /*background-color: RGBA(251, 174, 92, 1);*/
   text-decoration: none;
 
   & h2 {
