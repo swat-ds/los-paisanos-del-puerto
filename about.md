@@ -14,7 +14,7 @@ Los Paisanos del Puerto presents narratives of the descendants of Chinese immigr
 
 
 
-#### Bio?
+#### Bio
 
 ![bio photo of Dorcas Tang](../images/bio.jpg)
 
@@ -26,7 +26,7 @@ Dorcas Tang is an artist, photographer, and storyteller whose diasporic identity
 
 *__Location__*: McCabe Cratsley Lounge Exhibits (2nd floor)
 
-*__Location__*: April 3 - April 30, 2019
+*__Time__*: April 3 - April 30, 2019
 
 *__Artist Talk__*: Thursday, April 18, 2019, 4:30-6pm. McCabe Library Atrium
 
