@@ -18,4 +18,15 @@ Los Paisanos del Puerto presents narratives of the descendants of Chinese immigr
 
 ![bio photo of Dorcas Tang](../images/bio.jpg)
 
-Dorcas Tang is an artist, photographer, and storyteller whose diasporic identity as a third-generation Chinese-Malaysian drives her work. She is currently a senior at Swarthmore College majoring in Studio Art and double minoring in Spanish and Educational Studies although her parents still hold out hope for her to be a lawyer. In recognition of her potential, she has been nominated as a Richard Rubin Scholar and has received the Lang Center Summer Internship Grant, the Genevieve Ching-wen Lee Grant and the Favianna Rodríguez Artistic Activism Award. Her most recent work is Los Paisanos del Puerto: Portraits of the Chinese diaspora in Puntarenas, Costa Rica. Looking towards the future, she is excited to continue bridging communities and fostering critical dialogue through creating socially engaged visual narratives. If she could have any superpower in the world it would be the ability to completely understand other human beings. And cats. 
+Dorcas Tang is an artist, photographer, and storyteller whose diasporic identity as a third-generation Chinese-Malaysian drives her work. She is currently a senior at Swarthmore College majoring in Studio Art and double minoring in Spanish and Educational Studies although her parents still hold out hope for her to be a lawyer. In recognition of her potential, she has been nominated as a Richard Rubin Scholar and has received the Lang Center Summer Internship Grant, the Genevieve Ching-wen Lee Grant and the Favianna Rodríguez Artistic Activism Award. Her most recent work is Los Paisanos del Puerto: Portraits of the Chinese diaspora in Puntarenas, Costa Rica. Looking towards the future, she is excited to continue bridging communities and fostering critical dialogue through creating socially engaged visual narratives. If she could have any superpower in the world it would be the ability to completely understand other human beings. And cats.
+
+#### Exhibition
+
+![swarthmore libraries logo](../images/logo-mccabe-web.png)
+
+*__Location__*: McCabe Cratsley Lounge Exhibits (2nd floor)
+
+*__Location__*: April 3 - April 30, 2019
+
+*__Artist Talk__*: Thursday, April 18, 2019, 4:30-6pm. McCabe Library Atrium
+
